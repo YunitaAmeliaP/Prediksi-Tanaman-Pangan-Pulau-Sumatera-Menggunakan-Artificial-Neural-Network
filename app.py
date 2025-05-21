@@ -7,6 +7,7 @@ from tensorflow.keras.models import load_model
 import tensorflow as tf
 from sklearn.preprocessing import StandardScaler
 
+# PERSIAPAN DATA
 # Load model
 model = load_model("model_produksi_tanaman.h5")
 model.save("model_saved_format.h5")
@@ -19,6 +20,7 @@ st.markdown("""
 Aplikasi ini memprediksi **Produksi Tanaman** berdasarkan fitur-fitur input seperti Provinsi, Item, dan variabel lainnya.
 """)
 
+# PEMILIHAN DATA
 # Load dan olah dataset dummy (untuk ambil fitur one-hot)
 @st.cache_data
 def load_data():
@@ -37,6 +39,10 @@ item = st.selectbox("Pilih Komoditas", item_options)
 luas_panen = st.number_input("Masukkan Luas Panen (ha):", min_value=0.0)
 hasil_per_ha = st.number_input("Masukkan Hasil per Hektar (ku/ha):", min_value=0.0)
 
+# PEMILIHAN MODEL
+# Model yang digunakan Artificial Neural Network (ANN)
+
+# MEMBANGUN MODEL & PREDIKSI
 # Tombol prediksi
 if st.button("Prediksi Produksi"):
     # Siapkan dataframe input
