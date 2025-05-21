@@ -1,8 +1,43 @@
-Model Machine Learning untuk Prediksi Hasil Panen Tanaman Pangan dan Padi di Pulau Sumatera
+📊 Prediksi Hasil Panen Tanaman Pangan dan Padi di Pulau Sumatera Menggunakan Artificial Neural Network (ANN)
+📝 Deskripsi Proyek
+Proyek ini bertujuan untuk membangun model prediktif menggunakan metode Artificial Neural Network (ANN) guna memperkirakan hasil panen berbagai komoditas tanaman pangan dan padi di Pulau Sumatera. Model dikembangkan berdasarkan data historis hasil panen dan variabel iklim yang diperoleh dari berbagai sumber resmi.
 
-Model machine learning dikembangkan untuk memprediksi hasil panen berbagai komoditas tanaman pangan dan padi di Pulau Sumatera. Wilayah yang menjadi fokus mencakup delapan provinsi, yaitu Aceh, Sumatera Utara, Sumatera Barat, Jambi, Riau, Sumatera Selatan, Bengkulu, dan Lampung, dengan data yang dianalisis mencakup rentang waktu dari tahun 1993 hingga 2020.
+🌾 Komoditas Tanaman yang Dianalisis
+Jagung
 
-Komoditas yang dipertimbangkan meliputi jagung, ubi jalar, ubi kayu, kacang tanah, dan kedelai. Informasi terkait hasil panen diperoleh dari Badan Pusat Statistik (BPS), sementara data iklim sebagai variabel pendukung berasal dari stasiun BMKG di wilayah tersebut.
+Ubi Jalar
 
-Tujuan dari pengembangan model ini adalah untuk memprediksi hasil panen berdasarkan tren historis dan kondisi iklim, sehingga dapat mendukung pengambilan keputusan dalam sektor pertanian secara lebih efektif dan responsif terhadap dinamika cuaca.
+Ubi Kayu
 
+Kacang Tanah
+
+Kedelai
+
+Padi
+
+📍 Wilayah Cakupan
+Model mencakup delapan provinsi di Pulau Sumatera:
+
+Aceh
+
+Sumatera Utara
+
+Sumatera Barat
+
+Jambi
+
+Riau
+
+Sumatera Selatan
+
+Bengkulu
+
+Lampung
+
+📅 Periode Data
+Data yang digunakan mencakup rentang tahun 1993 hingga 2020.
+
+📚 Sumber Data
+Hasil Panen: Badan Pusat Statistik (BPS)
+
+Data Iklim: Stasiun BMKG (Badan Meteorologi, Klimatologi, dan Geofisika)
