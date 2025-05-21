@@ -16,7 +16,6 @@ Kacang Tanah
 
 Kedelai
 
-Padi
 
 📍 Wilayah Cakupan
 Model mencakup delapan provinsi di Pulau Sumatera:
