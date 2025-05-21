@@ -3,7 +3,7 @@
 
 📝 Deskripsi Proyek
 
-Proyek ini bertujuan untuk membangun model prediktif menggunakan metode Artificial Neural Network (ANN) guna memperkirakan hasil panen berbagai komoditas tanaman pangan di Pulau Sumatera. Model dikembangkan berdasarkan data historis hasil panen dan variabel iklim yang diperoleh dari berbagai sumber resmi.
+Proyek ini bertujuan untuk membangun model prediktif menggunakan metode Artificial Neural Network (ANN) untuk memperkirakan hasil panen berbagai komoditas tanaman pangan di Pulau Sumatera. Model dikembangkan berdasarkan data historis hasil panen dan variabel iklim yang diperoleh dari berbagai sumber resmi.
 
 🌾 Komoditas Tanaman yang Dianalisis
 Jagung
